@@ -28,6 +28,7 @@ $(document).ready(function () {
     if (newRandomColor == answer) {
       $('#message').text('Good Job!');
       generateNewColor();
+      $('#container').append('<div id="' + newRandomColor + '" class="blockColor"></div>' + '<p></p>');
     } else {
       $('#message').text('Wrong Answer!');
     }
