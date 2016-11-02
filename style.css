@@ -3,6 +3,10 @@
   height: 100px;
 }
 
+#container {
+  display: inline-flex;
+  margin: 30px;
+}
 #yellow {
   background-color: yellow;
 }
